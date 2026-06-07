@@ -17,26 +17,26 @@ function Home(){
 
     <div className="imgcontainer1">
     <div>
-    <img src="public/images/1.jpg" alt="Product 1"/>
+    <img src="/images/1.jpg" alt="Product 1" />
     <p>Name</p>
     <p>Price</p>
    <button className="view" onClick={() => navigate("/product1")}>View</button>
     </div>
      <div>
-    <img src="public/images/2.jpg" alt="Product 2"/>
+ <img src="/images/2.jpg" alt="Product 2" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
     </div> 
     <div>
-    <img src="public/images/3.jpg" alt="Product 3"/>
+   <img src="/images/3.jpg" alt="Product 3" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
     </div>
 
      <div>
-    <img src="public/images/4.jpg" alt="Product 4"/>
+    <img src="/images/4.jpg" alt="Product 4" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
@@ -47,22 +47,22 @@ function Home(){
     <div className="imgcontainer2">
     
     <div>
-    <img src="public/images/5.jpg"/>
+   <img src="/images/5.jpg" alt="Product 5" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
     </div> <div>
-    <img src="public/images/6.jpg"/>
+    <img src="/images/6.jpg" alt="Product 6" />
     <p>Name</p>
 <p>Price</p>
 <button className="view">View</button>
     </div> <div>
-    <img src="public/images/7.jpg"/>
+    <img src="/images/7.jpg" alt="Product 7" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
     </div> <div>
-    <img src="public/images/8.jpg"/>
+   <img src="/images/8.jpg" alt="Product 8" />
     <p>Name</p>
     <p>Price</p>
     <button className="view">View</button>
@@ -70,7 +70,7 @@ function Home(){
      <div className="imgcontainer3"> 
 
       <div >
-    <img src="public/images/9.jpg"/>
+   <img src="/images/9.jpg" alt="Product 9" />
     <p>Name</p>
     <p>Price</p>
     <button  className="view">View</button>

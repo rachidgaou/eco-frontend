@@ -6,6 +6,7 @@ import Footer from "./components/Footer.jsx";
 import Product1 from "./product1.jsx";
 import About from "./About.jsx";
 import Contact from "./Contact.jsx"
+import Products from "./products.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/product1" element={<Product1 />} />
           <Route path = "/About" element = {<About/>}/>
           <Route path = "/Contact" element ={<Contact/>}/>
+          <Route path = "/products" element = {<Products/>}/>
       </Routes>
         <Footer/>
     </>

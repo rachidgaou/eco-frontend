@@ -215,3 +215,44 @@ textarea {
 .submit:active {
   background-color: red;
 }
+.prodcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.labe1{
+  
+  color: #d40e0e;
+ margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+ 
+}
+.one{
+  color: #b2e890;
+  font-size: large;
+  font-weight: bold;
+
+}
+.cont1,
+.cont2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.div{
+  width: 300px;
+  padding : 10px;
+  gap: 10px;
+  border: #d40e0e solid 2px;
+  margin: 10px;
+  text-align: center;
+}
+.div img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}

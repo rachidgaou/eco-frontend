@@ -10,7 +10,7 @@ function NavBar() {
       <div className="links">
         <button >Home</button>
         <button onClick={()=>{navigate("/About")}}>About</button>
-        <button>Products</button>
+        <button onClick={()=>{navigate("/products")}}>Products</button>
         <button>Contact</button>
       </div>
     </nav>

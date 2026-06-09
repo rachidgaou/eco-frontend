@@ -28,7 +28,7 @@ function Products(){
       <p className="one">Price: 300 dh</p></div>
      
       <div className="div">
-     < img src="images/4.jpg"/>
+     <img src="images/4.jpg"/>
       <label className="labe1"> Product 4</label>
       <p className="one">Price: 300 dh</p>
       </div>

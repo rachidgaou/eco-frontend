@@ -11,7 +11,9 @@ function NavBar() {
         <button >Home</button>
         <button onClick={()=>{navigate("/About")}}>About</button>
         <button onClick={()=>{navigate("/products")}}>Products</button>
-        <button>Contact</button>
+        
+        <button onClick={()=>{navigate("/Contact")}}>Contact</button>
+         <button onClick={()=>{navigate("/product1")}}>Add Contact</button>
       </div>
     </nav>
   );
